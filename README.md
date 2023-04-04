@@ -35,7 +35,7 @@ To train with different sampling strategies, replace `combine` with `hard_neg`, 
 python train_offpolicy_with_trained_encoder.py --env-type point_goal  --encoder-model-path PATH_TO_MODEL
 ```
 ## Citation
-If you find this code useful in your research then please cite  
+If you find this code useful, please kindly cite  
 
 @article{zhao2023on,
 
