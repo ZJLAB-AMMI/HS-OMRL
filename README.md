@@ -1,7 +1,6 @@
 This is python code to implement the algorithm reported in the following paper
 
-[**On Context Distribution Shift in Task Representation Learning for Offline Meta RL**  
-Chenyang Zhao, Zihao Zhou, Bin Liu](https://arxiv.org/abs/2304.00354)
+## [**On Context Distribution Shift in Task Representation Learning for Offline Meta RL**](https://arxiv.org/abs/2304.00354)
 
 ### Abstract
 Offline meta reinforcement learning (OMRL) aims to learn transferrable knowledge from offline datasets to facilitate the learning process for new target tasks. Context-based RL employs a context encoder to rapidly adapt the agent to new tasks by inferring about the task representation, and then adjusting the acting policy based on the inferred task representation. Here we consider context-based OMRL, in particular, the issue of task representation learning for OMRL. We empirically demonstrate that the context encoder trained on offline datasets could suffer from distribution shift between the contexts used for training and testing. To tackle this issue, we propose a hard sampling based strategy for learning a robust task context encoder. Experimental results, based on distinct continuous control tasks, demonstrate that the utilization of our technique results in more robust task representations and better testing performance in terms of accumulated returns, compared with baseline methods.
@@ -36,17 +35,13 @@ python train_offpolicy_with_trained_encoder.py --env-type point_goal  --encoder-
 ```
 ## Citation
 If you find this code useful, please kindly cite  
-
+```
 @article{zhao2023on,
-
   title={On Context Distribution Shift in Task Representation Learning for Offline Meta RL},
-  
   author={Zhao, Chenyang; Zhou, Zihao and Liu, Bin},
-  
   journal={arXiv preprint arXiv:2304.00354},
-  
   year={2023}
-  
 }
+```
 #### Acknowledgement
 This code is based on [CORRO](https://github.com/PKU-RL/CORRO).
